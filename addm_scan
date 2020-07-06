@@ -1,0 +1,5 @@
+Cmnd_Alias ADDM_SCAN = \
+    /usr/bin/yum *, \
+    /usr/sbin/dmidecode *
+
+addmp  ALL=(ALL) NOPASSWD: ADDM_SCAN
